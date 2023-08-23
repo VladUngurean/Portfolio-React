@@ -8,8 +8,6 @@ export default function TechStack() {
         <img src="#" alt="Java Script" />
         <img src="#" alt="React" />
         <img src="#" alt="Tailwind" />
-        <img src="#" alt="Tailwind" />
-        <img src="#" alt="Tailwind" />
       </div>
     </>
   );
