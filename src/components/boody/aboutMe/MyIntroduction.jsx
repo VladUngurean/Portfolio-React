@@ -25,7 +25,7 @@ export default function MyIntroduction() {
         <div className="flex ml-14">
           <img
             className=" w-[100px] h-[130px]"
-            src="src/assets/img/myPhoto.jpg"
+            src="/img/myPhoto.jpg"
             alt="MyImg"
           />
         </div>
