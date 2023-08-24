@@ -4,7 +4,7 @@ export default function AboutMe() {
       <div className="flex flex-row justify-center items-center my-[200px]">
         <img
           className="w-[165px] h-[150px] mr-8 rounded-lg"
-          src={"/src/assets/img/fancy.jpg"}
+          src={"/public/img/fancy.jpg"}
           alt="desk"
         />
 
