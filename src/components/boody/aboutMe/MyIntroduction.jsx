@@ -1,17 +1,23 @@
 export default function MyIntroduction() {
   return (
     <>
-      <div className="text-center">
-        <p className="text-2xl no-underline text-grey-darkest hover:text-blue-dark text-center">
-          Front-End React Developer
-        </p>
-        <p>
-          Hi, I'm Vlad Ungurean. A passionate Front-End React Developer and I
-          just started my journey in Wed Develepment.
-        </p>
-        <img src="#" alt="GitHub" />
+      <div className="flex flex-row justify-center">
+        <div className="flex flex-col bg-gray-500">
+          <p className="text-lg text-start font-bold bg-green-100 max-w-[160px]">
+            Front-End React Developer &#128075;
+          </p>
+          <p className="text-[10px] bg-red-100 max-w-[330px]">
+            Hi, I'm Vlad Ungurean. A passionate Front-End React Developer based
+            in Moldova, Chișinău &#128205;
+          </p>
+          <div>
+            <p>GitHub</p>
+          </div>
+        </div>
+        <div className="flex w-[50px] h-[50px] bg-slate-600">
+          <img src="#" alt="MyImg" />
+        </div>
       </div>
-      <img src="#" alt="MyImg" />
     </>
   );
 }
