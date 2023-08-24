@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 export default function MyIntroduction() {
   return (
     <>
-      <div className="flex flex-row justify-center py-12">
+      <div className="flex flex-row justify-center mt-[120px] mb-8">
         <div className="flex flex-col">
           <p className="text-lg text-start font-bold max-w-[160px]">
             Front-End React Developer &#128075;

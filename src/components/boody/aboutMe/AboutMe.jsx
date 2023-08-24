@@ -3,7 +3,7 @@ export default function AboutMe() {
     <>
       <div className="flex flex-row justify-center items-center my-[200px]">
         <img
-          className="w-[165px] h-[150px] mr-8 rounded-lg"
+          className="w-[180px] h-[150px] mr-8 rounded-lg"
           src="/img/fancy.jpg"
           alt="desk"
         />
