@@ -3,20 +3,20 @@ export default function AboutMe() {
     <>
       <div className="flex flex-row justify-center items-center my-[200px]">
         <img
-          className="w-[180px] h-[150px] mr-8 rounded-lg"
+          className="w-[340px] h-[280px] mr-8 rounded-lg"
           src="/img/fancy.jpg"
           alt="desk"
         />
 
-        <div className=" max-w-[250px]">
-          <p className=" text-[10px] font-bold text-blue-500 font-poppins">
+        <div className=" max-w-[500px]">
+          <p className=" text-xl font-bold text-blue-500 font-poppins">
             ABOUT ME
           </p>
 
-          <p className=" text-sm font-bold mb-2">
+          <p className=" text-3xl font-bold my-4">
             A dedicated Front-End Developer based in Moldova, Chișinău &#128205;
           </p>
-          <p className=" text-[9px] font-poppins">
+          <p className=" text-base font-poppins">
             As a Junior Front-End Developer, I possess an impressive arsenal of
             skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel
             in designing and maintaining responsive websites that offer a smooth

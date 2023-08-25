@@ -3,28 +3,28 @@ import { FaGithub } from "react-icons/fa";
 export default function MyIntroduction() {
   return (
     <>
-      <div className="flex flex-row justify-center mt-[120px] mb-4">
+      <div className="flex flex-row justify-center mt-[120px]">
         <div className="flex flex-col">
-          <p className="text-lg text-start font-bold max-w-[160px] ">
+          <p className="text-6xl text-start font-bold max-w-[560px] mb-7">
             Front-End React Developer &#128075;
           </p>
-          <p className="text-[10px] max-w-[200px] py-3 font-poppins">
+          <p className="text-base max-w-[400px] font-poppins mb-7">
             Hi, I'm Vlad Ungurean. A passionate Front-End React Developer based
             in Moldova, Chișinău &#128205;
           </p>
           <div className="flex flex-row justify-start items-center">
             <div className="flex flex-row justify-center items-center relative ">
               <svg
-                className=" w-[190px] absolute bottom-[-58px] left-[190px]"
-                viewBox="110 105 280 280"
+                className=" w-[286px] h-[336px] absolute bottom-[-31px] left-[561px] z-10"
+                viewBox="100 100 300 300"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
                 width="100%"
               >
-                <path fill="none" stroke-width="205px" stroke="#000000">
+                <path fill="none" stroke-width="186px" stroke="#000000">
                   <animate
                     attributeName="d"
-                    dur="10000ms"
+                    dur="8000ms"
                     repeatCount="indefinite"
                     values="M484,297.5Q479,345,449,382Q419,419,378,439Q337,459,293.5,470.5Q250,482,203.5,477.5Q157,473,118.5,446.5Q80,420,58,379.5Q36,339,23,294.5Q10,250,19,204Q28,158,51,116Q74,74,115,48.5Q156,23,203,12.5Q250,2,293.5,21Q337,40,380.5,58Q424,76,449.5,116.5Q475,157,482,203.5Q489,250,484,297.5Z;
                     M474,294.5Q464,339,445,382.5Q426,426,382.5,445.5Q339,465,294.5,476Q250,487,206.5,473Q163,459,118.5,442.5Q74,426,49.5,384.5Q25,343,18,296.5Q11,250,18.5,203.5Q26,157,56.5,122Q87,87,124,61.5Q161,36,205.5,20.5Q250,5,297.5,13Q345,21,381.5,51.5Q418,82,441,121.5Q464,161,474,205.5Q484,250,474,294.5Z;
@@ -33,21 +33,18 @@ export default function MyIntroduction() {
                   ></animate>
                 </path>
               </svg>
+
               <svg
-                className=" w-[190px] absolute bottom-[-58px] left-[190px]"
-                viewBox="110 105 280 280"
+                className=" w-[286px] h-[336px] absolute bottom-[-31px] left-[561px] z-10"
+                viewBox="100 100 300 300"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
+                width="100%"
               >
-                <path
-                  id="blob"
-                  fill="none"
-                  stroke-width="200px"
-                  stroke="#f3f4f6"
-                >
+                <path fill="none" stroke-width="180px" stroke="#e5e7eb">
                   <animate
                     attributeName="d"
-                    dur="10000ms"
+                    dur="8000ms"
                     repeatCount="indefinite"
                     values="M484,297.5Q479,345,449,382Q419,419,378,439Q337,459,293.5,470.5Q250,482,203.5,477.5Q157,473,118.5,446.5Q80,420,58,379.5Q36,339,23,294.5Q10,250,19,204Q28,158,51,116Q74,74,115,48.5Q156,23,203,12.5Q250,2,293.5,21Q337,40,380.5,58Q424,76,449.5,116.5Q475,157,482,203.5Q489,250,484,297.5Z;
                     M474,294.5Q464,339,445,382.5Q426,426,382.5,445.5Q339,465,294.5,476Q250,487,206.5,473Q163,459,118.5,442.5Q74,426,49.5,384.5Q25,343,18,296.5Q11,250,18.5,203.5Q26,157,56.5,122Q87,87,124,61.5Q161,36,205.5,20.5Q250,5,297.5,13Q345,21,381.5,51.5Q418,82,441,121.5Q464,161,474,205.5Q484,250,474,294.5Z;
@@ -58,17 +55,17 @@ export default function MyIntroduction() {
               </svg>
             </div>
             <a
-              className=" text-[10px] flex flex-row justify-start items-center font-poppins"
+              className=" text-lg font-bold font-poppins flex flex-row justify-start items-center"
               href="https://github.com/VladUngurean"
             >
-              <FaGithub className="text-[15px] animate-bounce mr-1" />
+              <FaGithub className="text-[25px] animate-bounce mr-1" />
               GitHub
             </a>
           </div>
         </div>
         <div className="flex ml-1">
           <img
-            className=" w-[160px] h-[189px]"
+            className=" w-[280px] h-[330px] relative bottom-16 z-0"
             src="/img/myPhotoNoBg.png"
             alt="MyImg"
           />
