@@ -15,7 +15,7 @@ export default function MyIntroduction() {
           <div className="flex flex-row justify-start items-center">
             <div className="flex flex-row justify-center items-center relative ">
               <svg
-                className=" w-[190px] absolute bottom-[-72px] left-[244px]"
+                className=" w-[190px] absolute bottom-[-72px] left-[232px]"
                 viewBox="110 105 280 280"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -34,7 +34,7 @@ export default function MyIntroduction() {
                 </path>
               </svg>
               <svg
-                className=" w-[190px] absolute bottom-[-72px] left-[244px]"
+                className=" w-[190px] absolute bottom-[-72px] left-[232px]"
                 viewBox="110 105 280 280"
                 xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -58,7 +58,7 @@ export default function MyIntroduction() {
               </svg>
             </div>
             <a
-              className=" text-[10px] flex flex-row justify-start items-center"
+              className=" text-[10px] flex flex-row justify-start items-center underline"
               href="https://github.com/VladUngurean"
             >
               <FaGithub className="text-[15px] animate-bounce mr-1" />
@@ -68,8 +68,8 @@ export default function MyIntroduction() {
         </div>
         <div className="flex ml-1">
           <img
-            className=" w-[190px] h-[189px]"
-            src="/img/myPhoto.jpg"
+            className=" w-[170px] h-[189px]"
+            src="/img/myPhotoNoBg.png"
             alt="MyImg"
           />
         </div>
