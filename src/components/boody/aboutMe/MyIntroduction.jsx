@@ -58,7 +58,7 @@ export default function MyIntroduction() {
               </svg>
             </div>
             <a
-              className=" text-[10px] flex flex-row justify-start items-center underline"
+              className=" text-[10px] flex flex-row justify-start items-center"
               href="https://github.com/VladUngurean"
             >
               <FaGithub className="text-[15px] animate-bounce mr-1" />
