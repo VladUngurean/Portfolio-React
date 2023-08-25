@@ -33,7 +33,7 @@ export default function MyProjects() {
                 <p className=" text-[10px] font-bold m-2">CSS</p>
                 <p className=" text-[10px] font-bold m-2">Java Script</p>
               </div>
-              <div className="flex flex-row justify-center  items-center">
+              <div className="flex flex-row justify-center items-center mt-2">
                 <a
                   className=" text-[10px] font-bold flex flex-row justify-start items-center mr-4"
                   href="https://github.com/VladUngurean/Gym"
@@ -41,7 +41,6 @@ export default function MyProjects() {
                   <FaGithub className="text-[15px] animate-bounce mx-1" />
                   Code
                 </a>
-
                 <a
                   className=" text-[10px] font-bold flex flex-row justify-start items-center"
                   href="https://vladungurean.github.io/Gym/"
