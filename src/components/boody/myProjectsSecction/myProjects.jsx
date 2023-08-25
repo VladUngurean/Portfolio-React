@@ -22,8 +22,8 @@ export default function MyProjects() {
               alt="desk"
             />
             <div className="flex flex-col justify-center">
-              <p className=" text-[10px] font-bold ">USEC GYM &#127947;</p>
-              <p className="text-[10px] max-w-[240px]">
+              <p className=" text-[10px] font-bold mb-2">USEC GYM &#127947;</p>
+              <p className="text-[10px] max-w-[240px] font-poppins">
                 A gym website is a comprehensive resource for fitness
                 information, class schedules, membership options and tools to
                 help user to achive their fitness goals.

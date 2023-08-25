@@ -9,12 +9,14 @@ export default function AboutMe() {
         />
 
         <div className=" max-w-[250px]">
-          <p className=" text-[10px] font-bold text-blue-500">ABOUT ME</p>
+          <p className=" text-[10px] font-bold text-blue-500 font-poppins">
+            ABOUT ME
+          </p>
 
-          <p className=" text-sm font-bold">
+          <p className=" text-sm font-bold mb-2">
             A dedicated Front-End Developer based in Moldova, Chișinău &#128205;
           </p>
-          <p className=" text-[9px]">
+          <p className=" text-[9px] font-poppins">
             As a Junior Front-End Developer, I possess an impressive arsenal of
             skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel
             in designing and maintaining responsive websites that offer a smooth
