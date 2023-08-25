@@ -16,11 +16,6 @@ export default function MyProjects() {
           </p>
 
           <div className="flex flex-row justify-center text-center">
-            <img
-              className="w-[340px] h-[280px] mr-8 rounded-lg"
-              src="/img/gym-main.png"
-              alt="desk"
-            />
             <div className="w-[500px] flex flex-col justify-center ">
               <p className=" text-xl font-bold mb-2">USEC GYM &#127947;</p>
               <p className="text-xl font-poppins">
@@ -50,6 +45,12 @@ export default function MyProjects() {
                 </a>
               </div>
             </div>
+
+            <img
+              className="w-[340px] h-[280px] mr-8 rounded-lg"
+              src="/img/gym-main.png"
+              alt="desk"
+            />
           </div>
         </div>
       </div>
