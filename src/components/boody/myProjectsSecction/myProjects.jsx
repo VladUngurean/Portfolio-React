@@ -47,7 +47,7 @@ export default function MyProjects() {
             </div>
 
             <img
-              className="w-[340px] h-[280px] mr-8 rounded-lg"
+              className="w-[340px] h-[280px] mr-8 rounded-lg  max-lg:mr-0"
               src="/img/gym-main.png"
               alt="desk"
             />
@@ -89,7 +89,7 @@ export default function MyProjects() {
             </div>
 
             <img
-              className="w-[340px] h-[280px] mr-8 rounded-lg hidden max-lg:flex"
+              className="w-[340px] h-[280px] mr-8 rounded-lg hidden max-lg:flex  max-lg:mr-0"
               src="/img/crypto-site.png"
               alt="desk"
             />
