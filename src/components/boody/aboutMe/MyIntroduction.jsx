@@ -4,7 +4,7 @@ export default function MyIntroduction() {
   return (
     <>
       <div className="flex flex-row justify-center items-center mt-[120px] max-lg:flex-col">
-        <div className="flex flex-col justify-center items-center">
+        <div className="flex flex-col justify-center max-sm:items-center">
           <p className="text-6xl text-start font-bold max-sm:text-center max-sm:mx-auto max-w-[560px] mb-7 max-lg:text-4xl ">
             Front-End React Developer &#128075;
           </p>
