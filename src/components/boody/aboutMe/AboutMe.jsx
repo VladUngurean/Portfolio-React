@@ -16,10 +16,10 @@ export default function AboutMe() {
             ABOUT ME
           </p>
 
-          <p className=" text-3xl font-bold mb-4 max-lg:text-center">
+          <p className=" text-3xl font-bold mb-4 max-sm:px-2 max-lg:text-center">
             A dedicated Front-End Developer based in Moldova, Chișinău &#128205;
           </p>
-          <p className=" text-base font-poppins max-lg:text-center">
+          <p className=" text-base font-poppins max-sm:px-2 max-lg:text-center">
             As a Junior Front-End Developer, I possess an impressive arsenal of
             skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel
             in designing and maintaining responsive websites that offer a smooth
