@@ -1,7 +1,7 @@
 import { useState } from "react";
 import NavBar from "./components/navBar/NavBar";
 import MyIntroduction from "./components/boody/aboutMe/MyIntroduction";
-import TechStack from "./components/boody/aboutMe/TechStack";
+// import TechStack from "./components/boody/aboutMe/TechStack";
 import AboutMe from "./components/boody/aboutMe/AboutMe";
 import MyProjects from "./components/boody/myProjectsSecction/myProjects";
 
@@ -12,7 +12,7 @@ function App() {
     <>
       <NavBar />
       <MyIntroduction />
-      <TechStack />
+      {/* <TechStack /> */}
       <AboutMe />
       <MyProjects />
     </>

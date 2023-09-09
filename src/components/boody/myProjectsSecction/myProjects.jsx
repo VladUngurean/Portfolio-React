@@ -9,14 +9,14 @@ export default function MyProjects() {
   return (
     <>
       <div className="flex flex-row justify-center py-12">
-        <div className=" w-[840px] flex flex-col">
+        <div className=" w-[840px] flex flex-col max-lg:w-[500px] max-lg:text-center max-lg:flex-col max-lg:items-center">
           <p className=" text-xl font-bold text-blue-500">PORTFOLIO</p>
           <p className=" text-3xl font-bold mb-8">
             Each project is a unique piece of development &#129513;
           </p>
 
-          <div className="flex flex-row justify-center text-center">
-            <div className="w-[500px] flex flex-col justify-center ">
+          <div className="flex flex-row justify-center text-center max-lg:flex-col max-lg:items-center my-8 py-3 max-lg:border-2 max-lg:border-gray-300  max-lg:bg-gray-300 max-lg:bg-opacity-50 max-lg:rounded max-lg:shadow-[10px_10px_10px_rgba(0,0,0,0.15)] ">
+            <div className="w-[500px] flex flex-col justify-center max-lg:mb-5">
               <p className=" text-xl font-bold mb-2">USEC GYM &#127947;</p>
               <p className="text-xl font-poppins">
                 A gym website is a comprehensive resource for fitness
