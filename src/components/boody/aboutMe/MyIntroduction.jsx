@@ -4,8 +4,8 @@ export default function MyIntroduction() {
   return (
     <>
       <div className="flex flex-row justify-center items-center mt-[120px] max-lg:flex-col">
-        <div className="flex flex-col  max-lg:items-center">
-          <p className="text-6xl text-start font-bold max-w-[560px] mb-7 max-lg:text-center">
+        <div className="flex flex-col justify-center items-center">
+          <p className="text-6xl text-start font-bold max-w-[560px] mb-7 max-lg:text-4xl ">
             Front-End React Developer &#128075;
           </p>
           <p className="text-base max-w-[400px] font-poppins mb-7 max-lg:text-center">
@@ -74,7 +74,7 @@ export default function MyIntroduction() {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className=" w-[840px] flex flex-row justify-start items-center max-lg:w-full max-lg:justify-center">
+        <div className=" w-[840px] flex flex-row justify-start items-center max-lg:justify-center">
           <p className="text-start text-xl font-semibold">Tech Stack | </p>
           <div className="w-[450px] flex justify-between items-center">
             <img className="w-11 ml-9" src="/logo/htmlLogo.png" alt="html" />

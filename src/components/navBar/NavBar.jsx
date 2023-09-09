@@ -1,7 +1,7 @@
 export default function NavBar() {
   return (
     <nav className="w-full flex justify-between p-4">
-      <div className="mb-2 sm:mb-0">
+      <div className="mb-2">
         <p className="text-2xl font-bold">Vlad.dev</p>
       </div>
       <div>
