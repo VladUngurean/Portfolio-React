@@ -11,7 +11,7 @@ export default function MyProjects() {
       <div className="flex flex-row justify-center py-12 max-sm:py-0">
         <div className=" w-[840px] flex flex-col max-sm:w-auto max-lg:w-[500px] max-lg:text-center max-lg:flex-col max-lg:items-center">
           <p className=" text-xl font-bold text-blue-500">PORTFOLIO</p>
-          <p className=" text-3xl font-bold mb-8">
+          <p className=" text-3xl font-bold mb-8 max-sm:px-2">
             Each project is a unique piece of development &#129513;
           </p>
 
