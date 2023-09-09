@@ -5,7 +5,7 @@ export default function MyIntroduction() {
     <>
       <div className="flex flex-row justify-center items-center mt-[120px] max-lg:flex-col">
         <div className="flex flex-col justify-center items-center">
-          <p className="text-6xl text-start font-bold max-w-[560px] mb-7 max-lg:text-4xl ">
+          <p className="text-6xl text-start font-bold max-sm:text-center max-sm:mx-auto max-w-[560px] mb-7 max-lg:text-4xl ">
             Front-End React Developer &#128075;
           </p>
           <p className="text-base max-w-[400px] font-poppins mb-7 max-lg:text-center">
@@ -25,7 +25,7 @@ export default function MyIntroduction() {
         <div className="flex flex-row justify-center mt-20">
           <div className="flex flex-row justify-center items-center relative ">
             <svg
-              className=" w-[286px] h-[336px] absolute bottom-[55px] left-[0px] z-10"
+              className=" w-[284px] h-[334px] absolute bottom-[56px] left-[1px] z-10"
               viewBox="100 100 300 300"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -74,15 +74,35 @@ export default function MyIntroduction() {
         </div>
       </div>
       <div className="flex justify-center">
-        <div className=" w-[840px] flex flex-row justify-start items-center max-lg:justify-center">
+        <div className=" w-[840px] flex flex-row justify-start items-center max-sm:w-auto max-lg:justify-center">
           <p className="text-start text-xl font-semibold">Tech Stack | </p>
-          <div className="w-[450px] flex justify-between items-center">
-            <img className="w-11 ml-9" src="/logo/htmlLogo.png" alt="html" />
-            <img className="w-11" src="/logo/cssLogo.png" alt="css" />
-            <img className="w-11" src="/logo/jsLogo.png" alt="js" />
-            <img className="w-11" src="/logo/reactLogo.png" alt="react" />
-            <img className="w-11" src="/logo/tailwindLogo.png" alt="tailwind" />
-            <img className="w-11" src="/logo/sassLogo.png" alt="scss" />
+          <div className="w-[450px] flex justify-between items-center max-sm:w-auto">
+            <img
+              className="w-11 ml-9 max-sm:w-9 max-sm:ml-2"
+              src="/logo/htmlLogo.png"
+              alt="html"
+            />
+            <img
+              className="w-11 max-sm:w-9"
+              src="/logo/cssLogo.png"
+              alt="css"
+            />
+            <img className="w-11 max-sm:w-9" src="/logo/jsLogo.png" alt="js" />
+            <img
+              className="w-11 max-sm:w-9"
+              src="/logo/reactLogo.png"
+              alt="react"
+            />
+            <img
+              className="w-11 max-sm:w-9"
+              src="/logo/tailwindLogo.png"
+              alt="tailwind"
+            />
+            <img
+              className="w-11 max-sm:w-9"
+              src="/logo/sassLogo.png"
+              alt="scss"
+            />
           </div>
         </div>
       </div>

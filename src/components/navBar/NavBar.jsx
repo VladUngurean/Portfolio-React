@@ -4,7 +4,7 @@ export default function NavBar() {
       <div className="mb-2">
         <p className="text-2xl font-bold">Vlad.dev</p>
       </div>
-      <div>
+      <div className="max-sm:hidden">
         <a href="#" className="text-lg font-semibold ml-6">
           Home
         </a>
