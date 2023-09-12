@@ -20,7 +20,7 @@ export default function MyIntroduction() {
               <FaGithub className="text-[25px] animate-bounce mr-1" />
               GitHub
             </a>
-            <div className="flex justify-center items-center flex-row mx-3">
+            <div className="flex justify-center items-center flex-row mx-3 max-sm:my-2">
               <a className="font-poppins flex flex-row" href="tel:067242877">
                 <FaPhone className="text-[25px] mr-1" />
                 +373 067 242 877
