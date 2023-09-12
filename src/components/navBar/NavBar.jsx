@@ -6,9 +6,6 @@ export default function NavBar() {
       </div>
       <div className="max-sm:hidden">
         <a href="#" className="text-lg font-semibold ml-6">
-          Home
-        </a>
-        <a href="#" className="text-lg font-semibold ml-6">
           About
         </a>
         <a href="#" className="text-lg font-semibold ml-6">
