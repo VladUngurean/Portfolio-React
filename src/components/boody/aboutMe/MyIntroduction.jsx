@@ -1,18 +1,18 @@
-import { FaGithub } from "react-icons/fa";
+import { FaGithub, FaMailBulk, FaMailchimp, FaPhone } from "react-icons/fa";
 
 export default function MyIntroduction() {
   return (
     <>
       <div className="flex flex-row justify-center items-center mt-[120px] max-lg:flex-col">
-        <div className="flex flex-col justify-center max-sm:items-center">
+        <div className="flex flex-col justify-center max-sm:items-center max-lg:items-center">
           <p className="text-6xl text-start font-bold max-sm:text-center max-sm:mx-auto max-w-[560px] mb-7 max-lg:text-4xl ">
             Front-End React Developer &#128075;
           </p>
-          <p className="text-base max-w-[400px] font-poppins mb-7 max-lg:text-center">
+          <p className="text-base max-w-[400px] font-poppins mb-7 max-sm:px-2 max-lg:text-center">
             Hi, I'm Vlad Ungurean. A passionate Front-End React Developer based
             in Moldova, Chișinău &#128205;
           </p>
-          <div className="flex flex-row justify-start items-center">
+          <div className="flex flex-row justify-start items-center max-sm:flex-col">
             <a
               className=" text-lg font-bold font-poppins flex flex-row justify-start items-center"
               href="https://github.com/VladUngurean"
@@ -20,6 +20,18 @@ export default function MyIntroduction() {
               <FaGithub className="text-[25px] animate-bounce mr-1" />
               GitHub
             </a>
+            <div className="flex justify-center items-center flex-row mx-3">
+              <a className="font-poppins flex flex-row" href="tel:067242877">
+                <FaPhone className="text-[25px] mr-1" />
+                +373 067 242 877
+              </a>
+            </div>
+            <div className="flex justify-center items-center flex-row">
+              <p className="font-poppins flex flex-row">
+                <FaMailBulk className="text-[25px] mr-2" />
+                vladungurean23@gmail.com
+              </p>
+            </div>
           </div>
         </div>
         <div className="flex flex-row justify-center mt-20">
