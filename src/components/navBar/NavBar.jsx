@@ -1,6 +1,6 @@
 export default function NavBar() {
   return (
-    <nav className="w-full flex justify-between items-center p-4">
+    <nav className=" max-w-6xl mx-auto w-full flex justify-between items-center p-4">
       <div className="mb-2">
         <p className="text-2xl font-bold">Vlad.dev</p>
       </div>
