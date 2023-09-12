@@ -76,7 +76,7 @@ export default function MyProjects() {
               <div className="flex flex-row justify-center items-center mt-2">
                 <a
                   className=" text-xl font-bold flex flex-row justify-start items-center mr-4"
-                  href="https://github.com/VladUngurean/crypto-track-website"
+                  href="https://gym-pied.vercel.app/index.html"
                 >
                   <FaGithub className="text-[25px] animate-bounce mx-1" />
                   Code
