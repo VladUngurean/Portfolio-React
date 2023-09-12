@@ -34,10 +34,10 @@ export default function MyIntroduction() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-center mt-20">
+        <div className="flex flex-row justify-center mt-20 ml-3 max-lg:ml-0">
           <div className="flex flex-row justify-center items-center relative ">
             <svg
-              className=" w-[284px] h-[334px] absolute bottom-[56px] left-[1px] z-10"
+              className=" w-[284px] h-[354px] absolute bottom-[46px] left-[-24px] z-10"
               viewBox="100 100 300 300"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -57,7 +57,7 @@ export default function MyIntroduction() {
             </svg>
 
             <svg
-              className=" w-[286px] h-[336px] absolute bottom-[55px] left-[0px] z-10"
+              className=" w-[286px] h-[356px] absolute bottom-[45px] left-[-25px] z-10"
               viewBox="100 100 300 300"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -76,10 +76,10 @@ export default function MyIntroduction() {
               </path>
             </svg>
           </div>
-          <div className="flex ml-1">
+          <div className="flex mt-10">
             <img
-              className=" w-[280px] h-[330px] relative bottom-16 z-0"
-              src="/img/myPhotoNoBg.png"
+              className="w-[234px] h-[290px] relative bottom-16 z-0"
+              src="/img/myImg.png"
               alt="MyImg"
             />
           </div>
