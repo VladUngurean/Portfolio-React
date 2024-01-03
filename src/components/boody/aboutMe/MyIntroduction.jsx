@@ -3,12 +3,12 @@ import { FaGithub, FaMailBulk, FaMailchimp, FaPhone } from "react-icons/fa";
 export default function MyIntroduction() {
   return (
     <>
-      <div className="flex flex-row justify-center items-center mt-[120px] max-lg:flex-col">
+      <div className="max-w-5xl mx-auto w-full p-4 flex flex-row justify-center items-center mt-[120px] max-lg:flex-col">
         <div className="flex flex-col justify-center max-sm:items-center max-lg:items-center">
-          <p className="text-6xl text-start font-bold max-sm:text-center max-sm:mx-auto max-w-[560px] mb-7 max-lg:text-4xl ">
+          <p className="select-none text-6xl text-start font-bold max-sm:text-center max-sm:mx-auto max-w-[560px] mb-7 max-lg:text-4xl ">
             Front-End React Developer &#128075;
           </p>
-          <p className="text-base max-w-[400px] font-poppins mb-7 max-sm:px-2 max-lg:text-center">
+          <p className="select-none text-base max-w-[400px] font-poppins mb-7 max-sm:px-2 max-lg:text-center">
             Hi, I'm Vlad Ungurean. A passionate Front-End React Developer based
             in Moldova, Chișinău &#128205;
           </p>
@@ -23,7 +23,7 @@ export default function MyIntroduction() {
             <div className="flex justify-center items-center flex-row mx-3 max-sm:my-2">
               <a className="font-poppins flex flex-row" href="tel:067242877">
                 <FaPhone className="text-[25px] mr-1" />
-                +373 067 242 877
+                +373 67 242 877
               </a>
             </div>
             <div className="flex justify-center items-center flex-row">
@@ -34,16 +34,16 @@ export default function MyIntroduction() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row justify-center mt-20 ml-3 max-lg:ml-0">
+        <div className="select-none flex flex-row justify-center mt-20 ml-3 max-lg:ml-0">
           <div className="flex flex-row justify-center items-center relative ">
             <svg
               className=" w-[284px] h-[354px] absolute bottom-[46px] left-[-24px] z-10"
               viewBox="100 100 300 300"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
               width="100%"
             >
-              <path fill="none" stroke-width="186px" stroke="#000000">
+              <path fill="none" strokeWidth="186px" stroke="#000000">
                 <animate
                   attributeName="d"
                   dur="8000ms"
@@ -60,10 +60,10 @@ export default function MyIntroduction() {
               className=" w-[286px] h-[356px] absolute bottom-[45px] left-[-25px] z-10"
               viewBox="100 100 300 300"
               xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
               width="100%"
             >
-              <path fill="none" stroke-width="180px" stroke="#e5e7eb">
+              <path fill="none" strokeWidth="180px" stroke="#e5e7eb">
                 <animate
                   attributeName="d"
                   dur="8000ms"
@@ -85,7 +85,7 @@ export default function MyIntroduction() {
           </div>
         </div>
       </div>
-      <div className="flex justify-center">
+      <div className="max-w-5xl mx-auto w-full items-center p-4 select-none flex justify-center">
         <div className=" w-[840px] flex flex-row justify-start items-center max-sm:w-auto max-lg:justify-center">
           <p className="text-start text-xl font-semibold">Tech Stack | </p>
           <div className="w-[450px] flex justify-between items-center max-sm:w-auto">
