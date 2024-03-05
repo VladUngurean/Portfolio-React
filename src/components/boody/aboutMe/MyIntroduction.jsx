@@ -86,35 +86,59 @@ export default function MyIntroduction() {
         </div>
       </div>
       <div className="max-w-5xl mx-auto w-full items-center p-4 select-none flex justify-center">
-        <div className=" w-[840px] flex flex-row justify-start items-center max-sm:w-auto max-lg:justify-center">
-          <p className="text-start text-xl font-semibold">Tech Stack | </p>
-          <div className="w-[450px] flex justify-between items-center max-sm:w-auto">
-            <img
-              className="w-11 ml-9 max-sm:w-9 max-sm:ml-2"
-              src="/logo/htmlLogo.png"
-              alt="html"
-            />
-            <img
-              className="w-11 max-sm:w-9"
-              src="/logo/cssLogo.png"
-              alt="css"
-            />
-            <img className="w-11 max-sm:w-9" src="/logo/jsLogo.png" alt="js" />
-            <img
-              className="w-11 max-sm:w-9"
-              src="/logo/reactLogo.png"
-              alt="react"
-            />
-            <img
-              className="w-11 max-sm:w-9"
-              src="/logo/tailwindLogo.png"
-              alt="tailwind"
-            />
-            <img
-              className="w-11 max-sm:w-9"
-              src="/logo/sassLogo.png"
-              alt="scss"
-            />
+        <div className=" w-[840px] flex flex-row justify-start items-center gap-8 max-sm:flex-col max-sm:w-auto max-lg:justify-center">
+          <div className="text-start text-xl font-semibold whitespace-nowrap">Tech Stack <p className="inline max-sm:hidden">| </p></div>
+          <div className="max-w-[450px] flex justify-between items-center gap-2 max-sm:w-auto">
+            <div className=" min-w-10 flex items-center justify-between flex-col">
+              <img
+                className="w-[45px] max-sm:w-[32px]"
+                src="/logo/htmlLogo.png"
+                alt="html"
+              />
+              <p className="font-poppins">HTML</p>
+            </div>
+
+            <div className=" min-w-10 flex items-center justify-between flex-col">
+              <img
+                className="w-[45px] max-sm:w-[32px]"
+                src="/logo/cssLogo.png"
+                alt="css"
+              />
+              <p className="font-poppins">CSS</p>
+            </div>
+
+            <div className=" min-w-10 flex items-center justify-between flex-col">
+              <img className="w-[45px] max-sm:w-[32px]" src="/logo/jsLogo.png" alt="js" />
+              <p className="font-poppins">CSS</p>
+            </div>
+
+            <div className=" min-w-10 flex items-center justify-between flex-col">
+              <img
+                className="w-[45px] max-sm:w-[32px]"
+                src="/logo/reactLogo.png"
+                alt="react"
+              />
+              <p className="font-poppins">React</p>
+            </div>
+
+            <div className=" min-w-10 flex items-center justify-between flex-col">
+              <img
+                className="w-[45px] max-sm:w-[32px]"
+                src="/logo/tailwindLogo.png"
+                alt="tailwind"
+              />
+              <p className="font-poppins">Tailwind</p>
+            </div>
+
+            <div className=" min-w-10 flex items-center justify-between flex-col">
+              <img
+                className="w-[45px] max-sm:w-[32px]"
+                src="/logo/sassLogo.png"
+                alt="scss"
+              />
+              <p className="font-poppins">SCSS</p>
+            </div>
+
           </div>
         </div>
       </div>
