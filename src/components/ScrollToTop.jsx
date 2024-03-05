@@ -8,7 +8,7 @@ const ScrollToTopButton = () => {
   // Show the button when the user scrolls down halfway through the page
   useEffect(() => {
     const scrollHandler = () => {
-      if (window.scrollY > window.innerHeight / 2) {
+      if (window.scrollY > 450) {
         setIsVisible(true);
       } else {
         setIsVisible(false);

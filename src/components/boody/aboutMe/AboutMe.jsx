@@ -3,7 +3,7 @@ export default function AboutMe() {
     <>
       <div
         id="aboutMe"
-        className=" h-[500px] flex flex-row justify-center items-center my-[200px] max-lg:flex-col max-lg:bg-[url('/img/fancy.jpg')] bg-cover bg-no-repeat"
+        className=" min-h-[500px] flex flex-row justify-center items-center mt-[200px] mb-[50px] max-lg:flex-col max-lg:bg-[url('/img/fancy.jpg')] bg-cover bg-no-repeat"
       >
         <p className=" text-xl font-bold text-blue-500 font-poppins max-lg:flex hidden">
           ABOUT ME
