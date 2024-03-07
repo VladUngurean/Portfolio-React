@@ -41,16 +41,16 @@ export default function MyProjects() {
               <div className="flex flex-row justify-start max-lg:justify-center items-center mt-2">
                 <a
                   className=" text-xl font-bold flex flex-row justify-start items-center mr-4"
-                  href="https://github.com/VladUngurean/crypto-track-website"
+                  href="https://github.com/VladUngurean/cars-rent"
                 >
                   <FaGithub className="text-[25px] animate-bounce mx-1" />
                   Code
                 </a>
                 <a
                   className=" text-xl font-bold flex flex-row justify-start items-center"
-                  href="https://crypto-track-website.vercel.app/"
+                  href="#"
                 >
-                  <FaCloudUploadAlt className="text-[25px] animate-bounce mr-1" />
+                  <FaCloudUploadAlt className="text-[25px] text-red-500 animate-bounce mr-1" />
                   Live Demo
                 </a>
               </div>
