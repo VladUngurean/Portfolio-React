@@ -48,9 +48,10 @@ export default function MyProjects() {
                 </a>
                 <a
                   className=" text-xl font-bold flex flex-row justify-start items-center"
-                  href="#"
+                  href="https://chisinau-dream-cars.000webhostapp.com/"
+                  target="_blank"
                 >
-                  <FaCloudUploadAlt className="text-[25px] text-red-500 animate-bounce mr-1" />
+                  <FaCloudUploadAlt className="text-[25px] animate-bounce mr-1" />
                   Live Demo
                 </a>
               </div>

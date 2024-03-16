@@ -109,7 +109,7 @@ export default function MyIntroduction() {
 
             <div className=" min-w-10 flex items-center justify-between flex-col">
               <img className="w-[45px] max-sm:w-[32px]" src="/logo/jsLogo.png" alt="js" />
-              <p className="font-poppins">CSS</p>
+              <p className="font-poppins">JS</p>
             </div>
 
             <div className=" min-w-10 flex items-center justify-between flex-col">
