@@ -89,6 +89,31 @@ export default function MyIntroduction() {
         <div className=" w-[840px] flex flex-row justify-start items-center gap-8 max-sm:flex-col max-sm:w-auto max-lg:justify-center">
           <div className="text-start text-xl font-semibold whitespace-nowrap">Tech Stack <p className="inline max-sm:hidden">| </p></div>
           <div className="max-w-[450px] flex justify-between items-center flex-wrap gap-4 max-sm:justify-start max-sm:w-auto">
+            
+          <div className=" min-w-10 flex items-center justify-between flex-col">
+              <img className="w-[45px] max-sm:w-[32px]" src="/logo/jsLogo.png" alt="js" />
+              <p className="font-poppins">JS</p>
+            </div>
+
+
+            <div className=" min-w-10 flex items-center justify-between flex-col">
+              <img
+                className="w-[45px] max-sm:w-[32px]"
+                src="/logo/phpIcon.svg"
+                alt="PHP"
+              />
+              <p className="font-poppins">PHP</p>
+            </div>
+
+            <div className=" min-w-10 flex items-center justify-between flex-col">
+              <img
+                className="w-[45px] max-sm:w-[32px]"
+                src="/logo/reactLogo.png"
+                alt="react"
+              />
+              <p className="font-poppins">React</p>
+            </div>
+            
             <div className=" min-w-10 flex items-center justify-between flex-col">
               <img
                 className="w-[45px] max-sm:w-[32px]"
@@ -107,28 +132,6 @@ export default function MyIntroduction() {
               <p className="font-poppins">CSS</p>
             </div>
 
-            <div className=" min-w-10 flex items-center justify-between flex-col">
-              <img className="w-[45px] max-sm:w-[32px]" src="/logo/jsLogo.png" alt="js" />
-              <p className="font-poppins">JS</p>
-            </div>
-
-            <div className=" min-w-10 flex items-center justify-between flex-col">
-              <img
-                className="w-[45px] max-sm:w-[32px]"
-                src="/logo/reactLogo.png"
-                alt="react"
-              />
-              <p className="font-poppins">React</p>
-            </div>
-
-            <div className=" min-w-10 flex items-center justify-between flex-col">
-              <img
-                className="w-[45px] max-sm:w-[32px]"
-                src="/logo/tailwindLogo.png"
-                alt="tailwind"
-              />
-              <p className="font-poppins">Tailwind</p>
-            </div>
 
             <div className=" min-w-10 flex items-center justify-between flex-col">
               <img
@@ -142,11 +145,12 @@ export default function MyIntroduction() {
             <div className=" min-w-10 flex items-center justify-between flex-col">
               <img
                 className="w-[45px] max-sm:w-[32px]"
-                src="/logo/phpIcon.svg"
-                alt="PHP"
+                src="/logo/tailwindLogo.png"
+                alt="tailwind"
               />
-              <p className="font-poppins">PHP</p>
+              <p className="font-poppins">Tailwind</p>
             </div>
+
 
           </div>
         </div>

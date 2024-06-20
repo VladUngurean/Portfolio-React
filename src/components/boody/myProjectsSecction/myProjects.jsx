@@ -21,7 +21,7 @@ export default function MyProjects() {
           <div className="flex flex-row justify-center text-center max-lg:flex-col max-lg:items-center my-8 py-3 max-lg:border-2 max-lg:border-gray-300  max-lg:bg-gray-300 max-lg:bg-opacity-50 max-lg:rounded max-lg:shadow-[10px_10px_10px_rgba(0,0,0,0.15)] ">
             <div className="flex justify-center items-center h-full">
               <img
-                className="w-[340px] h-[280px] mr-8 rounded-lg flex max-lg:hidden"
+                className="w-[340px] h-[280px] mr-8 rounded-lg flex max-lg:hidden object-cover"
                 src="/img/chDreamCar.png"
                 alt="desk"
               />
@@ -97,7 +97,7 @@ export default function MyProjects() {
             </div>
 
             <img
-              className="w-[340px] h-[280px] ml-8 rounded-lg max-lg:ml-0 max-lg:mr-0"
+              className="w-[340px] h-[280px] ml-8 rounded-lg max-lg:ml-0 max-lg:mr-0 object-cover"
               src="/img/gym-main.png"
               alt="desk"
             />
@@ -139,7 +139,7 @@ export default function MyProjects() {
             </div>
 
             <img
-              className="w-[340px] h-[280px] mr-8 rounded-lg hidden max-lg:flex  max-lg:mr-0"
+              className="w-[340px] h-[280px] mr-8 rounded-lg hidden max-lg:flex  max-lg:mr-0 object-cover"
               src="/img/crypto-site.png"
               alt="desk"
             />
