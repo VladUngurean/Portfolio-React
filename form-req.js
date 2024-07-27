@@ -36,7 +36,7 @@ contactForm.addEventListener("submit", (e) => {
 			// alert("All good!")
 		})
 		.catch((err) => {
-			console.log(err);
+			// console.log(err);
 			alert("Ошибка!");
 			contactForm.reset();
 		});
@@ -131,10 +131,10 @@ function YesYesYes() {
 			text: message,
 		})
 		.then((res) => {
-			console.log('Message sent successfully:', res.data);
+			// console.log('Message sent successfully:', res.data);
 		})
 		.catch((err) => {
-			console.error('Error sending message:', err);
+			// console.error('Error sending message:', err);
 		});
 }
 
