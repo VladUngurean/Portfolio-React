@@ -885,6 +885,11 @@ textarea {
   animation: wheel 1.3s infinite;
   -webkit-animation: wheel 1.3s infinite;
 }
+
+#projects {
+  background-color: #fcfcfc;
+}
+
 @keyframes wheel {
   to {
     opacity: 0;
