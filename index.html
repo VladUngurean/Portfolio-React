@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
-  <script src="./index.js" defer></script>
+  <script src="./main.js" defer></script>
   <script src="./form-req.js" defer></script>
 </head>
 
@@ -25,7 +25,9 @@
     <div class="header__content">
       <div class="header__logo-container">
         <div class="header__logo-img-cont">
-          <img src="/assets/png/myImg.png" alt="" class="header__logo-img" />
+          <div class="blur_img_load" style="background-image: url(./assets/png/myImg-small.png);">
+            <img src="./assets/png/myImg.png" alt="" class="header__logo-img" />
+          </div>
         </div>
         <span class="header__logo-sub">Vlad Ungurean</span>
       </div>
@@ -45,8 +47,8 @@
           </li>
         </ul>
         <div class="header__main-ham-menu-cont">
-          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
-          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close" class="header__main-ham-menu-close d-none" />
+          <img src="./assets/svg/ham-menu.svg" alt="" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="" class="header__main-ham-menu-close d-none" />
         </div>
       </div>
     </div>
@@ -94,13 +96,13 @@
 
       <div class="home-hero__social">
         <a href="https://github.com/VladUngurean" class="home-hero__social-icon-link" target="_blank">
-          <img src="./assets/svg/github-dark.svg" alt="Github Profile" class="home-hero__social-icon" />
+          <img src="./assets/svg/github-dark.svg" alt="" class="home-hero__social-icon" />
         </a>
       </div>
 
       <div class="home-hero__social">
         <a href="https://t.me/blu_e_jeans" class="home-hero__social-icon-link" target="_blank">
-          <img src="./assets/svg/telegram.svg" alt="Telegram Profile" class="home-hero__social-icon" />
+          <img src="./assets/svg/telegram.svg" alt="" class="home-hero__social-icon" />
         </a>
       </div>
 
@@ -173,7 +175,9 @@
       <div class="projects__content">
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img src="./assets/png/art_wine_rap.png" alt="Screenshot" class="projects__row-img" loading="lazy" />
+            <div class="blur_img_load" style="background-image: url(./assets/png/art_wine_rap-small.png);">
+              <img src="./assets/png/art_wine_rap.png" alt="" class="projects__row-img" loading="lazy" />
+            </div>
           </div>
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Art Wine Rap</h3>
@@ -183,9 +187,12 @@
             <a class='btn btn--med btn--theme dynamicBgClr' href='https://art-wine-rap.vercel.app/' target='_blank'>Visit Website</a>
           </div>
         </div>
+
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img src="./assets/png/selfCare.png" alt="Screenshot" class="projects__row-img" loading="lazy" />
+            <div class="blur_img_load" style="background-image: url(./assets/png/selfCare-small.png);">
+              <img src="./assets/png/selfCare.png" alt="" class="projects__row-img" loading="lazy" />
+            </div>
           </div>
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Self Care</h3>
@@ -196,9 +203,12 @@
             <a class='btn btn--med btn--theme dynamicBgClr' href='https://self-care-ch.vercel.app/' target='_blank'>Visit Website</a>
           </div>
         </div>
+
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img src="./assets/png/dreamCars.png" alt="Screenshot" class="projects__row-img" loading="lazy" />
+            <div class="blur_img_load" style="background-image: url(./assets/png/dreamCars-small.png);">
+              <img src="./assets/png/dreamCars.png" alt="" class="projects__row-img" loading="lazy" />
+            </div>
           </div>
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Dream Cars</h3>
@@ -211,9 +221,12 @@
             <!-- <a class='btn btn--med btn--theme dynamicBgClr' href='https://chisinau-dream-cars.000webhostapp.com/' target='_blank'>Visit Website</a> -->
           </div>
         </div>
+
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img src="./assets/png/gym.png" alt="Screenshot" class="projects__row-img" loading="lazy" />
+            <div class="blur_img_load" style="background-image: url(./assets/png/gym-small.png);">
+              <img src="./assets/png/gym.png" alt="" class="projects__row-img" loading="lazy" />
+            </div>
           </div>
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">Gym-Fitness</h3>
@@ -224,9 +237,12 @@
             <a class='btn btn--med btn--theme dynamicBgClr' href='https://gym-pied.vercel.app/' target='_blank'>Visit Website</a>
           </div>
         </div>
+
         <div class="projects__row">
           <div class="projects__row-img-cont">
-            <img src="./assets/png/coinTack.png" alt="Screenshot" class="projects__row-img" loading="lazy" />
+            <div class="blur_img_load" style="background-image: url(./assets/png/coinTack-small.png);">
+              <img src="./assets/png/coinTack.png" alt="" class="projects__row-img" loading="lazy" />
+            </div>
           </div>
           <div class="projects__row-content">
             <h3 class="projects__row-content-title">COINTRACK</h3>
@@ -283,10 +299,10 @@
           </h2>
           <div class="main-footer__social-cont">
             <a target="_blank" href="https://github.com/VladUngurean">
-              <img class="main-footer__icon" src="./assets/svg/github-light.svg" alt="Github Profile" />
+              <img class="main-footer__icon" src="./assets/svg/github-light.svg" alt="" />
             </a>
             <a target="_blank" href="https://t.me/blu_e_jeans">
-              <img class="main-footer__icon" src="./assets/svg/telegram-dark.svg" alt="Telegram Profile" />
+              <img class="main-footer__icon" src="./assets/svg/telegram-dark.svg" alt="" />
             </a>
           </div>
         </div>

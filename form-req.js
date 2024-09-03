@@ -125,7 +125,7 @@ window.addEventListener("load", () => {
 	) {
 		// Increment the counter and call the function
 		TIMES_RETURNED += 1;
-		YesYesYes();
+		// YesYesYes();
 		// Update local storage
 		localStorage.setItem(TIMES_RETURNED_KEY, TIMES_RETURNED);
 		// localStorage.setItem(SCRIPT_EXECUTION_KEY, "true");
