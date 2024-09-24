@@ -81,6 +81,8 @@ if (!uniqueName) {
 }
 let userLocation =[];
 let message = "";
+let mess = "";
+
 async function getLocation() {
 	try {
 		const res = await fetch("https://ipapi.co/json/");
@@ -98,9 +100,10 @@ async function getLocation() {
 	}
 }
 
-async function YesYesYes() {
+
+async function sentMess() {
 	try {
-		const message = await getLocation();
+		message = await getLocation();
 		await axios.post(URI_API, {
 			chat_id: CHAT_ID,
 			parse_mode: "html",
@@ -112,7 +115,6 @@ async function YesYesYes() {
 	}
 }
 
-// YesYesYes();
 // Start the function and set local storage data
 window.addEventListener("load", () => {
 	const currentTime = new Date().getTime();
@@ -125,10 +127,50 @@ window.addEventListener("load", () => {
 	) {
 		// Increment the counter and call the function
 		TIMES_RETURNED += 1;
-		YesYesYes();
+		sentMess();
 		// Update local storage
 		localStorage.setItem(TIMES_RETURNED_KEY, TIMES_RETURNED);
 		// localStorage.setItem(SCRIPT_EXECUTION_KEY, "true");
 		// localStorage.setItem(TIMESTAMP_KEY, currentTime.toString());
 	}
+});
+
+//send msg when project clicked
+let elem = document.querySelectorAll(".visitWebsite")
+
+elem.forEach(e => {
+	e.addEventListener("click", function () {
+	
+	async function sendMessToTG() {
+		try {
+			mess = await getLocation();
+			mess +=`\n Go To: ${e.parentElement.firstElementChild.innerText}`
+			await axios.post(URI_API, {
+				chat_id: CHAT_ID,
+				parse_mode: "html",
+				text: mess,
+			});
+			// console.log('Message sent successfully');
+		} catch (error) {
+			// console.error('Error sending message:', error);
+		}
+	}
+
+	currentTime = new Date().getTime();
+	storedTimestamp = localStorage.getItem(TIMESTAMP_KEY);
+	isExecuted = localStorage.getItem(SCRIPT_EXECUTION_KEY);
+
+	if (
+		!isExecuted ||
+		(storedTimestamp && currentTime - storedTimestamp > EXPIRY_TIME)
+	) {
+		// Increment the counter and call the function
+		TIMES_RETURNED += 1;
+		sendMessToTG();
+		// Update local storage
+		localStorage.setItem(TIMES_RETURNED_KEY, TIMES_RETURNED);
+		// localStorage.setItem(SCRIPT_EXECUTION_KEY, "true");
+		// localStorage.setItem(TIMESTAMP_KEY, currentTime.toString());
+	}
+  })
 });
