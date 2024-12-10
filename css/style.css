@@ -243,13 +243,9 @@ textarea {
   padding: calc(1.5rem - 2px) calc(5rem - 2px);
 }
 .sec-pad {
-  padding: 12rem 0;
+  padding: 8rem 0;
 }
-@media only screen and (max-width: 56.25em) {
-  .sec-pad {
-    padding: 8rem 0;
-  }
-}
+
 .text-primary {
   color: #333;
   font-size: 2.2rem;
@@ -390,7 +386,7 @@ textarea {
 .about__content-details-para {
   font-size: 1.8rem;
   color: #666;
-  max-width: 60rem;
+  max-width: 80rem;
   line-height: 1.7;
   margin-bottom: 1rem;
   text-align: start;

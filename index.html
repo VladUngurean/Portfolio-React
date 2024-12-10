@@ -2,324 +2,362 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-  <title>Vlad Ungurean | Frontend Web Developer</title>
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="ie=edge" http-equiv="X-UA-Compatible"/>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+    <link href="/favicon.ico" rel="icon" type="image/x-icon"/>
+    <title>Vlad Ungurean | Frontend Web Developer</title>
+    <link href="css/style.css" rel="stylesheet"/>
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+          rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 
-  <script src="./main.js" defer></script>
-  <script src="./form-req.js" defer></script>
+    <script defer src="./main.js"></script>
+    <script defer src="./form-req.js"></script>
 </head>
 
 <body>
 
-  <header class="header">
+<header class="header">
     <div class="header__content">
-      <div class="header__logo-container">
-        <div class="header__logo-img-cont">
-          <div class="blur_img_load" style="background-image: url(./assets/png/myImg-small.png);">
-            <img src="./assets/png/myImg.webp" alt="" class="header__logo-img" />
-          </div>
+        <div class="header__logo-container">
+            <div class="header__logo-img-cont">
+                <div class="blur_img_load" style="background-image: url(./assets/png/myImg-small.png);">
+                    <img alt="" class="header__logo-img" src="./assets/png/myImg.webp"/>
+                </div>
+            </div>
+            <span class="header__logo-sub">Vlad Ungurean</span>
         </div>
-        <span class="header__logo-sub">Vlad Ungurean</span>
-      </div>
-      <div class="header__main">
-        <ul class="header__links">
-          <li class="header__link-wrapper">
-            <a href="./" class="header__link"> Home </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./#about" class="header__link">About </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./#projects" class="header__link"> Projects </a>
-          </li>
-          <li class="header__link-wrapper">
-            <a href="./#contact" class="header__link"> Contact </a>
-          </li>
-        </ul>
-        <div class="header__main-ham-menu-cont">
-          <img src="./assets/svg/ham-menu.svg" alt="" class="header__main-ham-menu" />
-          <img src="./assets/svg/ham-menu-close.svg" alt="" class="header__main-ham-menu-close d-none" />
+        <div class="header__main">
+            <ul class="header__links">
+                <li class="header__link-wrapper">
+                    <a class="header__link" href="./"> Home </a>
+                </li>
+                <li class="header__link-wrapper">
+                    <a class="header__link" href="./#about">About </a>
+                </li>
+                <li class="header__link-wrapper">
+                    <a class="header__link" href="./#projects"> Projects </a>
+                </li>
+                <li class="header__link-wrapper">
+                    <a class="header__link" href="./#contact"> Contact </a>
+                </li>
+            </ul>
+            <div class="header__main-ham-menu-cont">
+                <img alt="" class="header__main-ham-menu" src="./assets/svg/ham-menu.svg"/>
+                <img alt="" class="header__main-ham-menu-close d-none" src="./assets/svg/ham-menu-close.svg"/>
+            </div>
         </div>
-      </div>
     </div>
     <div class="header__sm-menu">
-      <div class="header__sm-menu-content">
-        <ul class="header__sm-menu-links">
-          <li class="header__sm-menu-link">
-            <a href="./"> Home </a>
-          </li>
+        <div class="header__sm-menu-content">
+            <ul class="header__sm-menu-links">
+                <li class="header__sm-menu-link">
+                    <a href="./"> Home </a>
+                </li>
 
-          <li class="header__sm-menu-link">
-            <a href="./#about"> About </a>
-          </li>
+                <li class="header__sm-menu-link">
+                    <a href="./#about"> About </a>
+                </li>
 
-          <li class="header__sm-menu-link">
-            <a href="./#projects"> Projects </a>
-          </li>
+                <li class="header__sm-menu-link">
+                    <a href="./#projects"> Projects </a>
+                </li>
 
-          <li class="header__sm-menu-link">
-            <a href="./#contact"> Contact </a>
-          </li>
-        </ul>
-      </div>
+                <li class="header__sm-menu-link">
+                    <a href="./#contact"> Contact </a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </header>
+</header>
 
-  <section class="home-hero">
+<section class="home-hero">
     <div class="home-hero__content">
-      <h1 class="heading-primary">Hey, I'm Vlad Ungurean</h1>
-      <div class="home-hero__info">
-        <p class="text-primary">
-          A Result-Oriented Web Developer building and managing Websites
-        </p>
-      </div>
-      <div class="home-hero__cta">
-        <a href="./#projects" class="btn btn--bg">Projects</a>
-      </div>
+        <h1 class="heading-primary">Hey, I'm Vlad Ungurean</h1>
+        <div class="home-hero__info">
+            <p class="text-primary">
+                A Result-Oriented Web Developer building and managing Websites
+            </p>
+        </div>
+        <div class="home-hero__cta">
+            <a class="btn btn--bg" href="./#projects">Projects</a>
+        </div>
     </div>
     <div class="home-hero__socials">
-      <!-- <div class="home-hero__social">
-        <a href="" class="home-hero__social-icon-link" target="_blank">
-          <img src="./assets/svg/linkedin-dark.svg" alt="Vlad Ungurean Linkedin Profile" class="home-hero__social-icon" />
-        </a>
-      </div> -->
+        <!-- <div class="home-hero__social">
+          <a href="" class="home-hero__social-icon-link" target="_blank">
+            <img src="./assets/svg/linkedin-dark.svg" alt="Vlad Ungurean Linkedin Profile" class="home-hero__social-icon" />
+          </a>
+        </div> -->
 
-      <div class="home-hero__social">
-        <a href="https://github.com/VladUngurean" class="home-hero__social-icon-link" target="_blank">
-          <img src="./assets/svg/github-dark.svg" alt="" class="home-hero__social-icon" />
-        </a>
-      </div>
+        <div class="home-hero__social">
+            <a class="home-hero__social-icon-link" href="https://github.com/VladUngurean" target="_blank">
+                <img alt="" class="home-hero__social-icon" src="./assets/svg/github-dark.svg"/>
+            </a>
+        </div>
 
-      <div class="home-hero__social">
-        <a href="https://t.me/blu_e_jeans" class="home-hero__social-icon-link" target="_blank">
-          <img src="./assets/svg/telegram.svg" alt="" class="home-hero__social-icon" />
-        </a>
-      </div>
+        <div class="home-hero__social">
+            <a class="home-hero__social-icon-link" href="https://t.me/blu_e_jeans" target="_blank">
+                <img alt="" class="home-hero__social-icon" src="./assets/svg/telegram.svg"/>
+            </a>
+        </div>
 
     </div>
     <div class="home-hero__mouse-scroll-cont">
-      <div class="mouse"></div>
+        <div class="mouse"></div>
     </div>
-  </section>
+</section>
 
-  <section id="about" class="about sec-pad">
+<section class="about sec-pad" id="about">
     <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-med">
-        <span class="heading-sec__main">About Me</span>
-        <span class="heading-sec__sub">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main">About Me</span>
+            <span class="heading-sec__sub">
           Here you will find more information about me, what I do, and my
           current skills mostly in terms of programming and technology
         </span>
-      </h2>
-      <div class="about__content">
-        <div class="about__content-main">
-          <h3 class="about__content-title">Get to know me!</h3>
-          <div class="about__content-details">
-            <p class="about__content-details-para">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm a <strong>Frontend Focused Web Developer</strong> building
-              and managing the Front-end of Websites. Check out <i>some</i> of
-              my work in the <strong>Projects</strong> section.
-            </p>
-            <p class="about__content-details-para">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My skills include a deep understanding of <strong>HTML</strong>, <strong>CSS</strong>, and experience working with them.
-              As for programming language, I am proficient in <strong>JavaScript</strong> and have used it in practice,
-              but there is still room for growth. Additionally, I have begun my journey in learning <strong>PHP</strong> and <strong>MySQL</strong>,
-              applying the knowledge gained in developing my own full-stack project.
-            </p>
-            <p class="about__content-details-para">
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm open to <strong>Job</strong> opportunities where I can
-              contribute, learn and grow. If you have a good opportunity that
-              matches my skills and experience then don't hesitate to
-              <strong>contact</strong> me.
-            </p>
-          </div>
-          <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr">Contact</a>
+        </h2>
+        <div class="about__content">
+            <div class="about__content-main">
+                <h3 class="about__content-title">Get to know me!</h3>
+                <div class="about__content-details">
+                    <p class="about__content-details-para">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm a <strong>Front-end Focused Web Developer</strong>
+                        with experience in <strong>Back-end</strong> development using the <strong>Laravel
+                        framework</strong>,
+                        specializing in creating responsive and user-friendly interfaces while
+                        ensuring seamless integration with server-side functionality.
+                        Check out <i>some</i> of my work in the <strong>Projects</strong> section.
+                    </p>
+                    <p class="about__content-details-para">
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I'm open to <strong>Job</strong> opportunities where I can
+                        contribute, learn and grow. If you have a job offer that
+                        matches my skills and experience then don't hesitate to
+                        <strong>contact</strong> me.
+                    </p>
+                </div>
+                <a class="btn btn--med btn--theme dynamicBgClr" href="./#contact">Contact</a>
+            </div>
+            <div class="about__content-skills">
+                <h3 class="about__content-title">My Skills</h3>
+                <div class="skills">
+                    <div class="skills__skill">HTML</div>
+                    <div class="skills__skill">CSS</div>
+                    <div class="skills__skill">SASS</div>
+                    <div class="skills__skill">Bootstrap</div>
+                    <div class="skills__skill">Tailwind</div>
+                    <div class="skills__skill">JavaScript</div>
+                    <!-- <div class="skills__skill">React</div> -->
+                    <div class="skills__skill">PHP</div>
+                    <div class="skills__skill">Laravel</div>
+                    <div class="skills__skill">MySQL (basics)</div>
+                    <div class="skills__skill">Responsive Design</div>
+                </div>
+            </div>
         </div>
-        <div class="about__content-skills">
-          <h3 class="about__content-title">My Skills</h3>
-          <div class="skills">
-            <div class="skills__skill">HTML</div>
-            <div class="skills__skill">CSS</div>
-            <div class="skills__skill">JavaScript</div>
-            <!-- <div class="skills__skill">React</div> -->
-            <div class="skills__skill">SASS</div>
-            <div class="skills__skill">Responsive Design</div>
-            <div class="skills__skill">PHP</div>
-            <div class="skills__skill">MySQL (basics)</div>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <section id="projects" class="projects sec-pad">
+<section class="projects sec-pad" id="projects">
     <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-bg">
-        <span class="heading-sec__main">Projects</span>
-        <span class="heading-sec__sub">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+            <span class="heading-sec__main">Projects</span>
+        </h2>
+
+        <div class="projects__content">
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <div class="blur_img_load" style="background-image: url(./assets/png/art_wine_rap-small.png);">
+                        <img alt="" class="projects__row-img" loading="lazy" src="./assets/png/vitra.avif"/>
+                    </div>
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Vitra</h3>
+                    <p class="projects__row-content-desc">
+                        Online store Vitra.md
+                    </p>
+                    <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://vitra.md/'
+                       target='_blank'>Visit Website</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="projects sec-pad" id="projects">
+    <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+            <span class="heading-sec__main">Pet Projects</span>
+            <span class="heading-sec__sub">
           Here you will find some of the personal projects that I
           created.
         </span>
-      </h2>
+        </h2>
 
-      <div class="projects__content">
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <div class="blur_img_load" style="background-image: url(./assets/png/art_wine_rap-small.png);">
-              <img src="./assets/png/art_wine_rap.webp" alt="" class="projects__row-img" loading="lazy" />
+        <div class="projects__content">
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <div class="blur_img_load" style="background-image: url(./assets/png/art_wine_rap-small.png);">
+                        <img alt="" class="projects__row-img" loading="lazy" src="./assets/png/art_wine_rap.webp"/>
+                    </div>
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Art Wine Rap</h3>
+                    <p class="projects__row-content-desc">
+                        This project is a business card website.
+                    </p>
+                    <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://art-wine-rap.vercel.app/'
+                       target='_blank'>Visit Website</a>
+                </div>
             </div>
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Art Wine Rap</h3>
-            <p class="projects__row-content-desc">
-              This project is a business card website.
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://art-wine-rap.vercel.app/' target='_blank'>Visit Website</a>
-          </div>
-        </div>
 
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <div class="blur_img_load" style="background-image: url(./assets/png/dreamCars-small.png);">
-              <img src="./assets/png/dreamCars.webp" alt="" class="projects__row-img" loading="lazy" />
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <div class="blur_img_load" style="background-image: url(./assets/png/dreamCars-small.png);">
+                        <img alt="" class="projects__row-img" loading="lazy" src="./assets/png/dreamCars.webp"/>
+                    </div>
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Dream Cars</h3>
+                    <p class="projects__row-content-desc">
+                        Dream Cars is an evolving car rental platform.
+                        Currently, it allows users to register, log in, and rent cars. Managers can view, add, and
+                        delete cars.
+                        Admins have the ability to add and remove managers and couriers. Technologies used include PHP,
+                        SCSS, and JS.
+                    </p>
+                    <a class='btn btn--med btn--theme dynamicBgClr visitWebsite'
+                       href='http://vlad-ungurean.infinityfreeapp.com/' target='_blank'>Visit Website</a>
+                    <!-- <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://chisinau-dream-cars.000webhostapp.com/' target='_blank'>Visit Website</a> -->
+                </div>
             </div>
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Dream Cars</h3>
-            <p class="projects__row-content-desc">
-              Dream Cars is an evolving car rental platform.
-              Currently, it allows users to register, log in, and rent cars. Managers can view, add, and delete cars.
-              Admins have the ability to add and remove managers and couriers. Technologies used include PHP, SCSS, and JS.
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='http://vlad-ungurean.infinityfreeapp.com' target='_blank'>Visit Website</a>
-            <!-- <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://chisinau-dream-cars.000webhostapp.com/' target='_blank'>Visit Website</a> -->
-          </div>
-        </div>
 
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <div class="blur_img_load" style="background-image: url(./assets/png/selfCare-small.png);">
-              <img src="./assets/png/selfCare.webp" alt="" class="projects__row-img" loading="lazy" />
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <div class="blur_img_load" style="background-image: url(./assets/png/selfCare-small.png);">
+                        <img alt="" class="projects__row-img" loading="lazy" src="./assets/png/selfCare.webp"/>
+                    </div>
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Self Care</h3>
+                    <p class="projects__row-content-desc">
+                        This project is a small online shop featuring self-care products, built using HTML, CSS, and JS.
+                        Upon purchase, the product details are sent to a Telegram bot for order processing.
+                    </p>
+                    <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://self-care-ch.vercel.app/'
+                       target='_blank'>Visit Website</a>
+                </div>
             </div>
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Self Care</h3>
-            <p class="projects__row-content-desc">
-              This project is a small online shop featuring self-care products, built using HTML, CSS, and JS.
-              Upon purchase, the product details are sent to a Telegram bot for order processing.
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://self-care-ch.vercel.app/' target='_blank'>Visit Website</a>
-          </div>
-        </div>
 
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <div class="blur_img_load" style="background-image: url(./assets/png/gym-small.png);">
-              <img src="./assets/png/gym.webp" alt="" class="projects__row-img" loading="lazy" />
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <div class="blur_img_load" style="background-image: url(./assets/png/gym-small.png);">
+                        <img alt="" class="projects__row-img" loading="lazy" src="./assets/png/gym.webp"/>
+                    </div>
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">Gym-Fitness</h3>
+                    <p class="projects__row-content-desc">
+                        This gym-fitness website allows you to check prices, view the schedule for group fitness events,
+                        and purchase your gym supplements. Technologies used include HTML, CSS, and JS.
+                    </p>
+                    <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://gym-pied.vercel.app/'
+                       target='_blank'>Visit Website</a>
+                </div>
             </div>
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">Gym-Fitness</h3>
-            <p class="projects__row-content-desc">
-              This gym-fitness website allows you to check prices, view the schedule for group fitness events,
-              and purchase your gym supplements. Technologies used include HTML, CSS, and JS.
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://gym-pied.vercel.app/' target='_blank'>Visit Website</a>
-          </div>
-        </div>
 
-        <div class="projects__row">
-          <div class="projects__row-img-cont">
-            <div class="blur_img_load" style="background-image: url(./assets/png/coinTack-small.png);">
-              <img src="./assets/png/coinTack.png" alt="" class="projects__row-img" loading="lazy" />
+            <div class="projects__row">
+                <div class="projects__row-img-cont">
+                    <div class="blur_img_load" style="background-image: url(./assets/png/coinTack-small.png);">
+                        <img alt="" class="projects__row-img" loading="lazy" src="./assets/png/coinTack.png"/>
+                    </div>
+                </div>
+                <div class="projects__row-content">
+                    <h3 class="projects__row-content-title">COINTRACK</h3>
+                    <p class="projects__row-content-desc">
+                        COINTRACK is a website that allows users to search for information
+                        about various cryptocurrencies in real-time. Technologies used include React, Tailwind.
+                    </p>
+                    <a class='btn btn--med btn--theme dynamicBgClr visitWebsite'
+                       href='https://crypto-track-website.vercel.app/' target='_blank'>Visit Website</a>
+                </div>
             </div>
-          </div>
-          <div class="projects__row-content">
-            <h3 class="projects__row-content-title">COINTRACK</h3>
-            <p class="projects__row-content-desc">
-              COINTRACK is a website that allows users to search for information
-              about various cryptocurrencies in real-time. Technologies used include React, Tailwind.
-            </p>
-            <a class='btn btn--med btn--theme dynamicBgClr visitWebsite' href='https://crypto-track-website.vercel.app/' target='_blank'>Visit Website</a>
-          </div>
         </div>
-      </div>
     </div>
-  </section>
+</section>
 
-  <section id="contact" class="contact sec-pad dynamicBg">
+<section class="contact sec-pad dynamicBg" id="contact">
     <div class="main-container">
-      <h2 class="heading heading-sec heading-sec__mb-med">
-        <span class="heading-sec__main heading-sec__main--lt">Contact</span>
-        <span class="heading-sec__sub heading-sec__sub--lt">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+            <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+            <span class="heading-sec__sub heading-sec__sub--lt">
           Feel free to Contact me by submitting the form below and I will get
           back to you as soon as possible
         </span>
-      </h2>
+        </h2>
 
-      <div class="contact__form-container">
-        <form id='contactForm' action='' class='contact__form' method='post'>
-          <div class="contact__form-field">
-            <label class="contact__form-label" for="name">Name</label>
-            <input required placeholder="Enter Your Name" type="text" class="contact__form-input" name="name" id="name" minlength="3" maxlength="25" />
-          </div>
-          <div class="contact__form-field">
-            <label class="contact__form-label" for="email">Email</label>
-            <input required placeholder="Enter Your Email" type="email" class="contact__form-input" name="email" id="email" />
-          </div>
-          <div class="contact__form-field">
-            <label class="contact__form-label" for="message">Message</label>
-            <textarea required cols="30" rows="10" class="contact__form-input" placeholder="Enter Your Message" name="message" id="message"></textarea>
-          </div>
-          <button type="submit" class="btn btn--theme contact__btn">
-            Submit
-          </button>
-        </form>
-      </div>
+        <div class="contact__form-container">
+            <form action='' class='contact__form' id='contactForm' method='post'>
+                <div class="contact__form-field">
+                    <label class="contact__form-label" for="name">Name</label>
+                    <input class="contact__form-input" id="name" maxlength="25" minlength="3" name="name"
+                           placeholder="Enter Your Name" required type="text"/>
+                </div>
+                <div class="contact__form-field">
+                    <label class="contact__form-label" for="email">Email</label>
+                    <input class="contact__form-input" id="email" name="email" placeholder="Enter Your Email" required
+                           type="email"/>
+                </div>
+                <div class="contact__form-field">
+                    <label class="contact__form-label" for="message">Message</label>
+                    <textarea class="contact__form-input" cols="30" id="message" name="message" placeholder="Enter Your Message"
+                              required rows="10"></textarea>
+                </div>
+                <button class="btn btn--theme contact__btn" type="submit">
+                    Submit
+                </button>
+            </form>
+        </div>
 
     </div>
-  </section>
+</section>
 
-  <footer class="main-footer">
+<footer class="main-footer">
     <div class="main-container">
-      <div class="main-footer__upper">
-        <div class="main-footer__row main-footer__row-1">
-          <h2 class="heading heading-sm main-footer__heading-sm">
-            <span>Social</span>
-          </h2>
-          <div class="main-footer__social-cont">
-            <a target="_blank" href="https://github.com/VladUngurean">
-              <img class="main-footer__icon" src="./assets/svg/github-light.svg" alt="" />
-            </a>
-            <a target="_blank" href="https://t.me/blu_e_jeans">
-              <img class="main-footer__icon" src="./assets/svg/telegram-dark.svg" alt="" />
-            </a>
-          </div>
+        <div class="main-footer__upper">
+            <div class="main-footer__row main-footer__row-1">
+                <h2 class="heading heading-sm main-footer__heading-sm">
+                    <span>Social</span>
+                </h2>
+                <div class="main-footer__social-cont">
+                    <a href="https://github.com/VladUngurean" target="_blank">
+                        <img alt="" class="main-footer__icon" src="./assets/svg/github-light.svg"/>
+                    </a>
+                    <a href="https://t.me/blu_e_jeans" target="_blank">
+                        <img alt="" class="main-footer__icon" src="./assets/svg/telegram-dark.svg"/>
+                    </a>
+                </div>
+            </div>
+            <div class="main-footer__row main-footer__row-2">
+                <h2 class="heading heading-sm text-lt">Vlad Ungurean</h2>
+                <p class="main-footer__short-desc">
+                    A Frontend focused Web Developer building the Frontend of Websites
+                </p>
+            </div>
         </div>
-        <div class="main-footer__row main-footer__row-2">
-          <h2 class="heading heading-sm text-lt">Vlad Ungurean</h2>
-          <p class="main-footer__short-desc">
-            A Frontend focused Web Developer building the Frontend of Websites
-          </p>
-        </div>
-      </div>
 
-      <div class="main-footer__lower">
-        Made by
-        <a href="">Vlad Ungurean</a>
-      </div>
+        <div class="main-footer__lower">
+            Made by
+            <a href="">Vlad Ungurean</a>
+        </div>
     </div>
-  </footer>
+</footer>
 
 </body>
 
